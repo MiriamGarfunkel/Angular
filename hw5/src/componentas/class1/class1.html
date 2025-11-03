@@ -1,0 +1,3 @@
+@for (student of students; track student){
+<app-student [studentDetails]="student" (deleteStudentEvent)="deleteStudentParent($event)"></app-student>
+}
